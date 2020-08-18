@@ -1,7 +1,7 @@
 <template>
     <nav class="nav-extended indigo darken-2">
     <div class="nav-wrapper">
-        <router-link :to="{name: 'Home'}">
+        <router-link :to="{name: 'Index'}">
             <span class="brand-logo">Ninja Smoothies</span>
         </router-link>
         <a href="" class="btn-floating btn-large halfway-fab pink">

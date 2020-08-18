@@ -59,7 +59,7 @@ import slugify from 'slugify';
                         ingredients: this.smoothie.ingredients,
                         slug: this.smoothie.slug
                     }).then(() => {
-                        this.$router.push({ name: 'Home'})
+                        this.$router.push({ name: 'Index'})
                     }).catch(err => {
                         console.log(err)
                     })
